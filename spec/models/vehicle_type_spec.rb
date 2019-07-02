@@ -1,5 +1,12 @@
 require 'rails_helper'
 
 RSpec.describe VehicleType, type: :model do
-  pending "add some examples to (or delete) #{__FILE__}"
-end
+    describe "associations" do
+      it { is_expected.to have_many(:vehicles) }
+      it { is_expected.to have_many(:vehicle_type_exceptions) }
+    end
+  
+    describe "validations" do
+      # pending
+    end
+  end
