@@ -1,0 +1,1 @@
+json.partial! "body", :vehicle => @vehicle
