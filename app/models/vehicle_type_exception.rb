@@ -1,0 +1,2 @@
+class VehicleTypeException < ApplicationRecord
+end
